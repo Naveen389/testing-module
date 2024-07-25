@@ -3,8 +3,6 @@ from sqlalchemy import Boolean, BigInteger, Column, Text,DateTime, Enum, Foreign
 import strawberry
 
 from database.db_conf import Base
-
-print("hi")
     
 
 class TestTable(Base):
